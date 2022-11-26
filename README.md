@@ -24,3 +24,8 @@ PseudoCode:
             before_index = before_index -1
         input[before_index+1] = current_value
 
+
+
+### References
+
+- H.Cormem,Thomas - Introduction to Algorithms , third edition
