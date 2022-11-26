@@ -21,22 +21,40 @@ for j=1 to input.length
         before_index = before_index -1
     input[before_index+1] = current_value
 
+
+Analysis
+
+    Best case:
+
+    a1' < a2' < ... < an' 
+    complexity O(n)
+
+    Worst case:
+
+    a1' > a2' > ... > an'
+    complexity O(n²)
+
+Approach: Incremental
+
 """
+
 
 import typing
 
 
 def increasing_insertion_sort(items: typing.Iterable[int]):
-
+    counter = 0
     for idx, item in enumerate(items):
         current_value = item
         before_idx = idx - 1
+        counter += 1
 
         while before_idx >= 0 and items[before_idx] > current_value:
+            counter += 1
             items[before_idx + 1] = items[before_idx]
             before_idx -= 1
         items[before_idx + 1] = current_value
-
+    print(counter)
     return items
 
 

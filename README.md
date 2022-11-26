@@ -13,7 +13,7 @@ Example:
 input : [13,50,4,2,1,3,33]
 expected output: [1,2,3,4,13,33,50]
 
-PseudoCode:
+**PseudoCode**:
 
     for j=1 to input.length
         current_value = input[j]
@@ -24,6 +24,20 @@ PseudoCode:
             before_index = before_index -1
         input[before_index+1] = current_value
 
+
+**Analysis**
+
+    Best case:
+
+    a1' < a2' < ... < an' 
+    complexity O(n)
+
+    Worst case:
+
+    a1' > a2' > ... > an'
+    complexity O(n²)
+
+**Approach**: Incremental
 
 
 ### References
