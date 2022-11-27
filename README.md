@@ -8,11 +8,13 @@
 **Definition**: It is an efficient algorithm for sorting small number of elements.
 
 Input:  sequence of n numbers **<a1,a2,...,an>**
+
 Output: Permutation (reordering) **<a1',a2',...,an'>** where  **a1'<a2'<...<an'** for all cases.
 
 **Example**:
 
 input : [13,50,4,2,1,3,33]
+
 expected output: [1,2,3,4,13,33,50]
 
 **PseudoCode**:
@@ -48,11 +50,13 @@ expected output: [1,2,3,4,13,33,50]
 **Definition**: It is an efficient algorithm for sorting using divide-conquer approach.
 
 Input:  sequence of n numbers <a1,a2,...,an>
+
 Output: Permutation (reordering) <a1',a2',...,an'> where  a1'<a2'<...<an' for all cases.
 
 **Example**:
 
 input : [13,50,4,2,1,3]
+
 expected output: [1,2,3,4,13,50]
 
 **PseudoCode**:
