@@ -1,6 +1,8 @@
 """
 Definition: It is an efficient algorithm for sorting small number of elements.
 
+Obs: It is fast compared with others sort algorithms, for small tasks.
+
 Input:  sequence of n numbers <a1,a2,...,an>
 Output: Permutation (reordering) <a1',a2',...,an'> where  a1'<a2'<...<an' for all cases.
 

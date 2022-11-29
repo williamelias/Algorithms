@@ -1,6 +1,8 @@
 """
 Definition: It is an efficient algorithm for sorting using divide-conquer approach.
 
+Obs: It is slower compared with others sort algorithms, for small tasks.
+
 Input:  sequence of n numbers <a1,a2,...,an>
 Output: Permutation (reordering) <a1',a2',...,an'> where  a1'<a2'<...<an' for all cases.
 
@@ -107,12 +109,6 @@ def merge_sort(A, q, r):
 
     return A
 
-
-# if __name__ == '__main__':
-#     A = [1, 8, 3, 5, 4]
-
-#     A = divide_conquer(A)
-#     print(A)
 
 """
 Usage:
