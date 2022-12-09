@@ -1,9 +1,9 @@
 
-## Sorting Algorithms
+# Sorting Algorithms
 
 <hr>
 
-### Insertion Sort
+## Insertion Sort
 
 **Definition**: It is an efficient algorithm for sorting small number of elements.
 
@@ -45,7 +45,7 @@ expected output: [1,2,3,4,13,33,50]
 
 <hr>
 
-### Merge sort
+## Merge sort
 
 **Definition**: It is an efficient algorithm for sorting using divide-conquer approach.
 
@@ -148,6 +148,6 @@ expected output: [1,2,3,4,13,50]
 
 <hr>
 
-### References
+## References
 
 - H.Cormem,Thomas - Introduction to Algorithms , third edition
